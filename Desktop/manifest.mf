@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.softcabin.desktop
+OpenIDE-Module-Install: org/softcabin/desktop/Installer.class
+OpenIDE-Module-Localizing-Bundle: org/softcabin/desktop/Bundle.properties
+OpenIDE-Module-Requires: org.openide.windows.WindowManager
+OpenIDE-Module-Specification-Version: 1.0
+OpenIDE-Module-Layer: org/softcabin/desktop/layer.xml

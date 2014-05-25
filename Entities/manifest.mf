@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.softcabin.entities
+OpenIDE-Module-Localizing-Bundle: org/softcabin/entities/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
