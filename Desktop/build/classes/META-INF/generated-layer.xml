@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Edit">
+            <file name="org-softcabin-desktop-action-ExplorerStudentAction.instance">
+                <!--org.softcabin.desktop.action.ExplorerStudentAction-->
+                <attr
+                    bundlevalue="org.softcabin.desktop.action.Bundle#CTL_ExplorerStudentAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.softcabin.desktop.action.ExplorerStudentAction"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Explorer">
+            <file name="org-softcabin-desktop-action-ExplorerStudentView.instance">
+                <!--org.softcabin.desktop.action.ExplorerStudentView-->
+                <attr
+                    bundlevalue="org.softcabin.desktop.action.Bundle#CTL_ExplorerStudentView" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.softcabin.desktop.action.ExplorerStudentView"/>
+                <attr name="iconBase" stringvalue="org/softcabin/desktop/explorerStudent.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="TrayMenu">
+            <file name="org-softcabin-desktop-action-TrayAction.instance">
+                <!--org.softcabin.desktop.action.TrayAction-->
+                <attr
+                    bundlevalue="org.softcabin.desktop.action.Bundle#CTL_TrayAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.softcabin.desktop.action.TrayAction"/>
+                <attr name="iconBase" stringvalue="org/softcabin/desktop/action/about.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="org-softcabin-desktop-action-TrayExitAction.instance">
+                <!--org.softcabin.desktop.action.TrayExitAction-->
+                <attr
+                    bundlevalue="org.softcabin.desktop.action.Bundle#CTL_TrayExitAction" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="org.softcabin.desktop.action.TrayExitAction"/>
+                <attr name="iconBase" stringvalue="org/softcabin/desktop/action/exit.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="org-softcabin-desktop-ExplorerTopComponent.instance">
+                <!--org.softcabin.desktop.ExplorerTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.softcabin.desktop.ExplorerTopComponent"/>
+                <attr name="preferredID" stringvalue="ExplorerTopComponent"/>
+                <attr
+                    bundlevalue="org.softcabin.desktop.Bundle#CTL_ExplorerAction" name="displayName"/>
+            </file>
+            <file name="org-softcabin-desktop-OutputTopComponent.instance">
+                <!--org.softcabin.desktop.OutputTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.softcabin.desktop.OutputTopComponent"/>
+                <attr name="preferredID" stringvalue="OutputTopComponent"/>
+                <attr
+                    bundlevalue="org.softcabin.desktop.Bundle#CTL_OutputAction" name="displayName"/>
+            </file>
+            <file name="org-softcabin-desktop-WelcomeTopComponent.instance">
+                <!--org.softcabin.desktop.WelcomeTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="org.softcabin.desktop.WelcomeTopComponent"/>
+                <attr name="preferredID" stringvalue="WelcomeTopComponent"/>
+                <attr
+                    bundlevalue="org.softcabin.desktop.Bundle#CTL_WelcomeAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="org/softcabin/desktop/Welcome16x16.png"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="TrayMenu">
+        <file name="org-softcabin-desktop-action-TrayAction.shadow">
+            <!--org.softcabin.desktop.action.TrayAction-->
+            <attr name="originalFile" stringvalue="Actions/TrayMenu/org-softcabin-desktop-action-TrayAction.instance"/>
+            <attr intvalue="200" name="position"/>
+        </file>
+        <file name="org-softcabin-desktop-action-TrayExitAction.shadow">
+            <!--org.softcabin.desktop.action.TrayExitAction-->
+            <attr name="originalFile" stringvalue="Actions/TrayMenu/org-softcabin-desktop-action-TrayExitAction.instance"/>
+            <attr intvalue="400" name="position"/>
+        </file>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="org-softcabin-desktop-ExplorerTopComponent.shadow">
+                <!--org.softcabin.desktop.ExplorerTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-softcabin-desktop-ExplorerTopComponent.instance"/>
+            </file>
+            <file name="org-softcabin-desktop-OutputTopComponent.shadow">
+                <!--org.softcabin.desktop.OutputTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-softcabin-desktop-OutputTopComponent.instance"/>
+            </file>
+            <file name="org-softcabin-desktop-WelcomeTopComponent.shadow">
+                <!--org.softcabin.desktop.WelcomeTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/org-softcabin-desktop-WelcomeTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Services">
+        <folder name="JavaHelp">
+            <file name="org-softcabin-desktop-docs.xml">
+                <!--org.softcabin.desktop.docs-->
+                <attr intvalue="3342" name="position"/><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE helpsetref PUBLIC "-//NetBeans//DTD JavaHelp Help Set Reference 1.0//EN" "http://www.netbeans.org/dtds/helpsetref-1_0.dtd">
+<helpsetref url="nbdocs:/org/softcabin/desktop/docs/desktop-hs.xml" merge="true"/>
+]]></file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="ExplorerTopComponent.settings">
+                <!--org.softcabin.desktop.ExplorerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.softcabin.desktop.ExplorerTopComponent"/>
+</settings>
+]]></file>
+            <file name="OutputTopComponent.settings">
+                <!--org.softcabin.desktop.OutputTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.softcabin.desktop.OutputTopComponent"/>
+</settings>
+]]></file>
+            <file name="WelcomeTopComponent.settings">
+                <!--org.softcabin.desktop.WelcomeTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="org.softcabin.desktop.WelcomeTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="ExplorerTopComponent.wstcref">
+                    <!--org.softcabin.desktop.ExplorerTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="ExplorerTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+            <folder name="output">
+                <file name="OutputTopComponent.wstcref">
+                    <!--org.softcabin.desktop.OutputTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="OutputTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+            <folder name="editor">
+                <file name="WelcomeTopComponent.wstcref">
+                    <!--org.softcabin.desktop.WelcomeTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="WelcomeTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="org_softcabin_desktop">
+                <file name="Explorer" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.softcabin.desktop.ExplorerTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.softcabin.desktop//Explorer//EN"/>
+                </file>
+                <file name="Output" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.softcabin.desktop.OutputTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.softcabin.desktop//Output//EN"/>
+                </file>
+                <file name="Welcome" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.softcabin.desktop.WelcomeTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//org.softcabin.desktop//Welcome//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="softcabin">
+                    <folder name="desktop">
+                        <file name="ExplorerTopComponent">
+                            <!--org.softcabin.desktop.ExplorerTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_softcabin_desktop/Explorer.instance"/>
+                        </file>
+                        <file name="OutputTopComponent">
+                            <!--org.softcabin.desktop.OutputTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_softcabin_desktop/Output.instance"/>
+                        </file>
+                        <file name="WelcomeTopComponent">
+                            <!--org.softcabin.desktop.WelcomeTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//org_softcabin_desktop/Welcome.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="org_softcabin_desktop">
+                <file name="Explorer.instance">
+                    <!--org.softcabin.desktop.ExplorerTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.softcabin.desktop.ExplorerTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.softcabin.desktop.ExplorerTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="Output.instance">
+                    <!--org.softcabin.desktop.OutputTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.softcabin.desktop.OutputTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.softcabin.desktop.OutputTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+                <file name="Welcome.instance">
+                    <!--org.softcabin.desktop.WelcomeTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.softcabin.desktop.WelcomeTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.softcabin.desktop.WelcomeTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

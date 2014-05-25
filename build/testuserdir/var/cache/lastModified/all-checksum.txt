@@ -1,0 +1,7 @@
+home=1373032883882
+cluster=1401033173465
+platform=1373032883882
+user=1401033173465
+crc=7
+locale=en_US
+branding=softcabin

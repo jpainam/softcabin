@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.softcabin.student">
+    <module_version install_time="1401033725664" last="true" origin="installer" specification_version="1.0">
+        <file crc="1415619342" name="config/Modules/org-softcabin-student.xml"/>
+        <file crc="61254841" name="modules/ext/jcalendar-1.4.jar"/>
+        <file crc="3522403950" name="modules/org-softcabin-student.jar"/>
+    </module_version>
+</module>

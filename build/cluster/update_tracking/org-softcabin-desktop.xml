@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.softcabin.desktop">
+    <module_version install_time="1401033725042" last="true" origin="installer" specification_version="1.0">
+        <file crc="3080175662" name="config/Modules/org-softcabin-desktop.xml"/>
+        <file crc="1643168090" name="modules/org-softcabin-desktop.jar"/>
+    </module_version>
+</module>

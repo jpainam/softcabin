@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.softcabin.swingX">
+    <module_version install_time="1401033722719" last="true" origin="installer" specification_version="1.0">
+        <file crc="1193841245" name="config/Modules/com-softcabin-swingX.xml"/>
+        <file crc="2133320945" name="modules/com-softcabin-swingX.jar"/>
+        <file crc="588584937" name="modules/ext/org.jdesktop.swingx.scrollpaneselector.jar"/>
+        <file crc="1103611034" name="modules/ext/swingx-all-1.6.5.jar"/>
+    </module_version>
+</module>

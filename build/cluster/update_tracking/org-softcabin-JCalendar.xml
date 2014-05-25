@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.softcabin.JCalendar">
+    <module_version install_time="1401033723090" last="true" origin="installer" specification_version="1.0">
+        <file crc="1866245744" name="config/Modules/org-softcabin-JCalendar.xml"/>
+        <file crc="61254841" name="modules/ext/jcalendar-1.4.jar"/>
+        <file crc="396533037" name="modules/org-softcabin-JCalendar.jar"/>
+    </module_version>
+</module>

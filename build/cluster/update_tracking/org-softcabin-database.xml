@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="org.softcabin.database">
+    <module_version install_time="1401033724222" last="true" origin="installer" specification_version="1.0">
+        <file crc="225872425" name="config/Modules/org-softcabin-database.xml"/>
+        <file crc="1659124001" name="modules/ext/derby.jar"/>
+        <file crc="2296454945" name="modules/ext/derbyclient.jar"/>
+        <file crc="2521932841" name="modules/ext/mysql-connector-java-5.1.15-bin.jar"/>
+        <file crc="2251275041" name="modules/org-softcabin-database.jar"/>
+    </module_version>
+</module>

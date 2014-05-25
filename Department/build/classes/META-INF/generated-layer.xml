@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Edit">
+            <folder name="Softcabin">
+                <folder name="Student">
+                    <file name="org-softcabin-department-action-AddDepartmentAction.instance">
+                        <!--org.softcabin.department.action.AddDepartmentAction-->
+                        <attr
+                            bundlevalue="org.softcabin.department.action.Bundle#CTL_AddDepartmentAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.softcabin.department.action.AddDepartmentAction"/>
+                        <attr name="iconBase" stringvalue="org/softcabin/department/action/add_department.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                    <file name="org-softcabin-department-action-DepartmentDisplayAction.instance">
+                        <!--org.softcabin.department.action.DepartmentDisplayAction-->
+                        <attr
+                            bundlevalue="org.softcabin.department.action.Bundle#CTL_DepartmentDisplayAction" name="displayName"/>
+                        <attr
+                            methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                        <attr name="delegate" newvalue="org.softcabin.department.action.DepartmentDisplayAction"/>
+                        <attr name="iconBase" stringvalue="org/softcabin/department/action/department_display.png"/>
+                        <attr boolvalue="false" name="noIconInMenu"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Record">
+            <file name="org-softcabin-department-action-AddDepartmentAction.shadow">
+                <!--org.softcabin.department.action.AddDepartmentAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Softcabin/Student/org-softcabin-department-action-AddDepartmentAction.instance"/>
+                <attr intvalue="400" name="position"/>
+            </file>
+            <file name="org-softcabin-department-action-DepartmentDisplayAction.shadow">
+                <!--org.softcabin.department.action.DepartmentDisplayAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Softcabin/Student/org-softcabin-department-action-DepartmentDisplayAction.instance"/>
+                <attr intvalue="200" name="position"/>
+            </file>
+            <file name="org-softcabin-department-action-DepartmentDisplayAction-separatorAfter.instance">
+                <!--org.softcabin.department.action.DepartmentDisplayAction-->
+                <attr name="instanceCreate" newvalue="javax.swing.JSeparator"/>
+                <attr intvalue="250" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="Record">
+            <file name="org-softcabin-department-action-AddDepartmentAction.shadow">
+                <!--org.softcabin.department.action.AddDepartmentAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Softcabin/Student/org-softcabin-department-action-AddDepartmentAction.instance"/>
+                <attr intvalue="400" name="position"/>
+            </file>
+            <file name="org-softcabin-department-action-DepartmentDisplayAction.shadow">
+                <!--org.softcabin.department.action.DepartmentDisplayAction-->
+                <attr name="originalFile" stringvalue="Actions/Edit/Softcabin/Student/org-softcabin-department-action-DepartmentDisplayAction.instance"/>
+                <attr intvalue="200" name="position"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>
